@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GildedRose.Items;
 
 namespace GildedRoseKata
 {
@@ -33,7 +34,6 @@ namespace GildedRoseKata
                     SellIn = 5,
                     Quality = 49
                 },
-				// this conjured item does not work properly yet
 				new Conjured {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
             };
 
