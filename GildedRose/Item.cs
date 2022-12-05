@@ -1,12 +1,8 @@
-﻿namespace GildedRose.Items;
+﻿namespace GildedRose;
 
-public class Sulfuras : IItem
+public class Item
 {
     public string Name { get; set; }
     public int SellIn { get; set; }
     public int Quality { get; set; }
-    public void Update()
-    {
-        return;
-    }
 }
